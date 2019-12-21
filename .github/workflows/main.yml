@@ -19,7 +19,7 @@ jobs:
     - name: Build Image and Push to DockerHub
       uses: elgohr/Publish-Docker-Github-Action@2.8
       with:
-        name: $CONTAINER_NAME
+        name: scottyhq/jhub-pangeo-ml
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tag_names: true
