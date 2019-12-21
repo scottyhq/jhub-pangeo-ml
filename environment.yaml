@@ -17,8 +17,6 @@ dependencies:
   - tensorflow-gpu
   - keras-gpu
   - pytorch-gpu
-  - cudf
-  - cuml
 # DASK
   - dask=2.9
   - distributed=2.9
