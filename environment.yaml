@@ -10,13 +10,6 @@ dependencies:
 # CUDA 
   - cupy=7.0
   - cudatoolkit=10.1
-# ML
-  - scikit-image
-  - scikit-learn
-  - dask-ml
-  - tensorflow-gpu
-  - keras-gpu
-  - pytorch-gpu
 # DASK
   - dask=2.9
   - distributed=2.9
