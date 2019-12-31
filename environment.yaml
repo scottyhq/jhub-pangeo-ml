@@ -1,22 +1,26 @@
 name: notebook
 channels:
   - conda-forge
+  - rapidsai-nightly
 dependencies:
 # JUPYTER
-  - jupyterlab=1.2
-  - jupyterhub=1.0
-  - jupyter-server-proxy=1.2
-  - nbgitpuller=0.8
-# CUDA 
-  - cupy=7.0
-  - cudatoolkit=10.1
+  - jupyterlab
+  - jupyterhub
+  - jupyter-server-proxy
+  - nbgitpuller
+# CUDA
+  - cupy
+  - cudatoolkit
+  - cudf
+  - rmm
+  - cuspatial
 # DASK
-  - dask=2.9
-  - distributed=2.9
-  - dask-kubernetes=0.10
-  - dask-labextension=1.0
-  - python-graphviz=0.13
+  - dask
+  - distributed
+  - dask-kubernetes
+  - dask-labextension
+  - python-graphviz
 # OTHER
-  - tornado=6.0
-  - bokeh=1.4
-  - pip=19.3
+  - tornado
+  - bokeh
+  - pip
