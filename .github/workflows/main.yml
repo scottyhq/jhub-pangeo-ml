@@ -17,7 +17,7 @@ jobs:
     - name: Checkout Repo
       uses: actions/checkout@v1
     - name: Build Image and Push to DockerHub
-      uses: elgohr/Publish-Docker-Github-Action@2.8
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: scottyhq/jhub-pangeo-ml
         username: ${{ secrets.DOCKER_USERNAME }}
